@@ -1,3 +1,8 @@
+# Modified version by IU1INZ
+This simple modification consists of adjusting MIC GAIN range to go beyond 100% up to 200%.
+In this way, devices like the Motorola Ion smart radio, which is known to have low microphone sensitivity issues, can be comfortably used with DroidStar.
+Default Mic Gain settings for DMR, YSF and FCS have been adjusted to 100% in order to reach a better modulation when using most consumer smartphones.
+
 # DroidStar
 This software connects to M17, Fusion (YSF/FCS, DN and VW modes are supported), DMR, P25, NXDN, D-STAR (REF/XRF/DCS) reflectors and AllStar nodes (as an IAX2 client or Web Transceiver mode) over UDP.  It is compatible with all of the AMBE USB devices out there (ThumbDV, DVstick 30, DVSI, etc). It also supports MMDVM modems and can be used as a hotspot, or as a stand-alone transceiver via direct mode to the MMDVM device.  This software is open source and uses the cross platform C++ library called Qt.  It will build and run on Linux, Windows, MacOS, Android, and iOS. No USB device support for iOS though (AMBE vocoder or MMDVM). It should also build and run on any other posix platform that has Qt avilable (xxxBSD, Solaris, etc).  This software is provided *as-is* and no support is available.
 
