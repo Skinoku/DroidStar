@@ -247,7 +247,7 @@ ApplicationWindow {
 				mainTab.dmrtgidEdit.visible = false;
 				mainTab.comboM17CAN.visible = false;
 				mainTab.privateBox.visible = false;
-				mainTab.sliderMicGain.value = 0.5;
+				mainTab.sliderMicGain.value = 1.0;
             }
 			if(droidstar.get_mode() === "FCS"){
 				//mainTab.comboMode.width = mainTab.width / 2;
@@ -263,7 +263,7 @@ ApplicationWindow {
 				mainTab.dmrtgidEdit.visible = false;
 				mainTab.comboM17CAN.visible = false;
 				mainTab.privateBox.visible = false;
-				mainTab.sliderMicGain.value = 0.5;
+				mainTab.sliderMicGain.value = 1.0;
 			}
             if(droidstar.get_mode() === "DMR"){
 				//mainTab.comboMode.width = (mainTab.width / 5) - 5;
@@ -280,7 +280,7 @@ ApplicationWindow {
 				mainTab.dmrtgidEdit.visible = true;
 				mainTab.comboM17CAN.visible = false;
 				mainTab.privateBox.visible = true;
-				mainTab.sliderMicGain.value = 0.5;
+				mainTab.sliderMicGain.value = 1.0;
             }
             if(droidstar.get_mode() === "P25"){
 				//mainTab.comboMode.width = mainTab.width / 2;
