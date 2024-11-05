@@ -460,6 +460,7 @@ Item {
 		width: (parent.width * 3 / 4) - 20
 		height: parent.height / rows;
 		value: 0.1
+		to: 2
 		onValueChanged: {
 			v = value * 100;
 			droidstar.set_input_volume(value);
